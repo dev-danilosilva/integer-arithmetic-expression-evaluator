@@ -189,6 +189,7 @@ class Parser:
     def parse(self):
         return self.expr()
 
+# === Interpreter ===
 
 class NodeVisitor:
     def visit(self, node: Ast):
