@@ -232,7 +232,7 @@ def main():
         source_code = input('pyparser > ')
 
         if source_code == ':q':
-            print('Oui oui')
+            print('Tchau!')
             break
 
         lexer = Lexer(source_code)
